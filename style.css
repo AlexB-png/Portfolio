@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-1 : rgba(112, 6, 169, 1);
+  --primary-2 : rgba(139, 110, 239, 1);
+  --primary-3 : rgba(161, 146, 226, 1);
+  --primary-4 : rgba(109, 105, 249, 1);
+  --primary-5 : rgb(5, 64, 116);
+  --primary-6 : rgb(98, 71, 219);
+}
+
+body {
+  background-color: black;
+}
+
+.codeText {
+  font-size: clamp(10px,3vw, 40px);
+  
+  color: lime;
+  font-family: monospace;
+}
+
+.hidden {
+  display: none;
+
+  color: lime;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+      font-family: monospace;
+      font-size: clamp(10px,3vw, 40px);
+    }
+  }
+}
